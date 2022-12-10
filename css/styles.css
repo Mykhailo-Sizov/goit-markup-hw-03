@@ -1,0 +1,193 @@
+:root{
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --button-color: #4D5AE5;
+    --white-color:#FFFFFF;
+    --button-portfolio:#F4F4FD;
+    /* основной цвет #434455*/
+    /* вторичній на заголовках #2E2F42 */
+    /* цвет кнопки #4D5AE5*/
+}
+
+
+
+body {
+    background-color: ffffff;
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+/* logo */
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.75em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+span {
+    color: var(--button-color);
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.75em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+/* навигация сайта в hed */
+.site-nav .link {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+.site-nav a {
+    text-decoration: none;
+}
+
+.site-nav .link:hover {
+    color: var(--primary-text-color);
+}
+.site-nav .link:focus {
+    color: var(--button-color);
+}
+
+.contacts .mail {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts .mail:hover,
+.contacts .mail:focus{
+    color: var(--button-color);
+}
+
+.contacts .phone { 
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts .phone:hover,
+.contacts .phone:focus{
+    color: var(--button-color);
+}
+/* hero */
+.hero-title {
+    background-color:#2E2F42; 
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+}
+
+.button-hero {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    width: 170px;
+    height: 51px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.18em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+/* what are we doing */
+.section-title {
+    color: var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.team-work {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-command {
+    background-color: var(--button-portfolio);
+}
+
+.section-team {
+
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-names {
+    color: var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+
+.section-footer{
+    background-color: var(--title-text-color);
+    color: #E7E9FC;
+      
+}
+
+.logo-footer{
+    color: #F4F4FD;
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+      /*  Portfolio page */
+.button-btn{
+    background-color: var(--button-portfolio);
+    color: var(--button-color);
+    font-size: 16px;
+    line-height: 1.5em;
+    cursor: pointer;
+ }
+
+.button-list .button-btn:hover,
+.button-list .button-btn:focus{
+    background-color: var(--button-color);
+    color: var(--white-color);
+}
+
+.foto-img .section-portfolio {
+    color: var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
