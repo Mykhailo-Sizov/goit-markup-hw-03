@@ -19,6 +19,7 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+   
 }
 /* logo */
 .logo {
@@ -30,6 +31,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    
 }
 
 span {
@@ -46,6 +48,16 @@ ul {
     list-style: none;
 }
 /* навигация сайта в hed */
+.container {
+   display: block;
+}
+
+.site-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .site-nav .link {
     color: var(--title-text-color);
     font-family: 'Roboto';
@@ -63,6 +75,17 @@ ul {
 }
 .site-nav .link:focus {
     color: var(--button-color);
+}
+
+.container-contacts {
+    display: block; 
+}
+
+.contacts{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    
 }
 
 .contacts .mail {
@@ -95,12 +118,30 @@ ul {
     color: var(--button-color);
 }
 /* hero */
+
+
+
 .hero-title {
     background-color:#2E2F42; 
     color: var(--white-color);
     font-size: 56px;
     line-height: 1em;
     letter-spacing: 0.02em;
+    
+    
+}
+
+.container-hero {
+    height: 603px;
+    text-align: center;
+}
+
+.first-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+  
 }
 
 .button-hero {
@@ -115,41 +156,88 @@ ul {
     cursor: pointer;
 }
 
-/* what are we doing */
+/* первая секция после героя */
+
 .section-title {
     color: var(--title-text-color);
     font-size: 20px;
     line-height: 1.2em;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
+.container-content{
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* what are we doing */
 .team-work {
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.section-command {
+.container-works{
+    margin-top: 120px;
+
+}
+
+.works {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* our team */
+
+.container-command {
     background-color: var(--button-portfolio);
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.team-foto{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .section-team {
-
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .section-names {
     color: var(--title-text-color);
     font-size: 20px;
     line-height: 1.2em;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
+/* Footer */
 
 .section-footer{
     background-color: var(--title-text-color);
@@ -171,23 +259,48 @@ ul {
 }
 
       /*  Portfolio page */
+.container-buttons{
+    margin-top: 96px;
+}
+
+
 .button-btn{
     background-color: var(--button-portfolio);
     color: var(--button-color);
     font-size: 16px;
     line-height: 1.5em;
     cursor: pointer;
+    padding: 8px 16px;
  }
 
-.button-list .button-btn:hover,
-.button-list .button-btn:focus{
+.button-btn:hover,
+.button-btn:focus{
     background-color: var(--button-color);
     color: var(--white-color);
 }
 
-.foto-img .section-portfolio {
+.button-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* секция фото */
+.section-portfolio {
     color: var(--title-text-color);
     font-size: 20px;
     line-height: 1.2em;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.foto-list{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container-foto {
+    margin-top: 72px;
 }
 

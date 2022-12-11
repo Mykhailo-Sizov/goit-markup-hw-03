@@ -8,25 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="page-heder">
         <nav>
-            <a href="./index.html" class="logo">
-                <span>Web</span>Studio
-            </a>
-            <ul class="site-nav">
-                <li>
-                    <a href="index.html" class="link">Studio</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="/" class="link">Contacts</a>
-                </li>
-            </ul>
+            <div class="container">
+                <a href="./index.html" class="logo">
+                    <span>Web</span>Studio
+                </a>
+                <ul class="site-nav">
+                    <li>
+                        <a href="index.html" class="link">Studio</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html" class="link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/" class="link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-contacts">
             <ul class="contacts">
                 <li>
                     <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
@@ -35,79 +42,83 @@
                     <a href="tel:+11(000)111-11-11" class="phone">+11 (000) 111-11-11</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
 
     <main>
         <!-- кнопки -->
-        <section class="button-list">
-           <ul>
-                <li>
-                    <button type="button" class="button-btn">ALL</button>
-                </li>
-                <li>
-                    <button type="button" class="button-btn">Web Site</button>
-                </li>
-                <li>
-                    <button type="button" class="button-btn">App</button>
-                </li>
-                <li>
-                    <button type="button" class="button-btn">Design</button>
-                </li>
-                <li>
-                    <button type="button" class="button-btn">Marketing</button>
-                </li> 
-           </ul>
+        <section class="section">
+            <div class="container-buttons">
+                <ul class="button-list">
+                        <li>
+                            <button type="button" class="button-btn">ALL</button>
+                        </li>
+                        <li>
+                            <button type="button" class="button-btn">Web Site</button>
+                        </li>
+                        <li>
+                            <button type="button" class="button-btn">App</button>
+                        </li>
+                        <li>
+                            <button type="button" class="button-btn">Design</button>
+                        </li>
+                        <li>
+                            <button type="button" class="button-btn">Marketing</button>
+                        </li> 
+                </ul>
+            </div>
         </section>
         <!-- секция фото -->
-        <section class="foto-img">
-            <ul>               
-                <li>
-                    <img src="./img/portfolio.img/bankingappinterfaceconcept.jpg" alt="banking app interface concept">
-                    <h2 class="section-portfolio">Banking App Interface Concept</h2>
-                    <p>App</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/cashlesspayment.jpg" alt="cashless payment">
-                    <h2 class="section-portfolio">Cashless Payment</h2>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/meditaionapp.jpg" alt="meditaion app">
-                    <h2 class="section-portfolio">Meditaion App</h2>
-                    <p>App</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/taxiservice.jpg" alt="taxi service">
-                    <h2 class="section-portfolio">Taxi Service</h2>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/screenillustrations.jpg" alt="screen illustrations">
-                    <h2 class="section-portfolio">Screen Illustrations</h2>
-                    <p>Design</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/onlinecourses.jpg" alt="online courses">
-                    <h2 class="section-portfolio">Online Courses</h2>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/instagramstoriesconcept.jpg" alt="instagram stories concept">
-                    <h2 class="section-portfolio">Instagram Stories Concept</h2>
-                    <p>Design</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/organicfood.jpg" alt="organic food">
-                    <h2 class="section-portfolio">Organic Food</h2>
-                    <p>Web Site</p>
-                </li>
-                <li>
-                    <img src="./img/portfolio.img/freshcoffee.jpg" alt="fresh coffee">
-                    <h2 class="section-portfolio">Fresh Coffee</h2>
-                    <p>Web Site</p>
-                </li>
-            </ul>
+        <section class="section">
+            <div class="container-foto">
+                <ul class="foto-list">               
+                    <li>
+                        <img src="./img/portfolio.img/bankingappinterfaceconcept.jpg" alt="banking app interface concept">
+                        <h2 class="section-portfolio">Banking App Interface Concept</h2>
+                        <p>App</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/cashlesspayment.jpg" alt="cashless payment">
+                        <h2 class="section-portfolio">Cashless Payment</h2>
+                        <p>Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/meditaionapp.jpg" alt="meditaion app">
+                        <h2 class="section-portfolio">Meditaion App</h2>
+                        <p>App</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/taxiservice.jpg" alt="taxi service">
+                        <h2 class="section-portfolio">Taxi Service</h2>
+                        <p>Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/screenillustrations.jpg" alt="screen illustrations">
+                        <h2 class="section-portfolio">Screen Illustrations</h2>
+                        <p>Design</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/onlinecourses.jpg" alt="online courses">
+                        <h2 class="section-portfolio">Online Courses</h2>
+                        <p>Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/instagramstoriesconcept.jpg" alt="instagram stories concept">
+                        <h2 class="section-portfolio">Instagram Stories Concept</h2>
+                        <p>Design</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/organicfood.jpg" alt="organic food">
+                        <h2 class="section-portfolio">Organic Food</h2>
+                        <p>Web Site</p>
+                    </li>
+                    <li>
+                        <img src="./img/portfolio.img/freshcoffee.jpg" alt="fresh coffee">
+                        <h2 class="section-portfolio">Fresh Coffee</h2>
+                        <p>Web Site</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
     </main>

@@ -8,25 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="page-heder">
-        <nav>
-            <a href="./index.html" class="logo">
-              <span>Web</span>Studio
-            </a>
-                <ul class="site-nav">
-                    <li>
-                        <a href="index.html" class="link">Studio</a>
-                    </li>
-                    <li>
-                        <a href="./portfolio.html" class="link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="/" class="link">Contacts</a>
-                    </li>
-                </ul>                 
+    <header class="page-heder">        
+            <nav>
+                <div class="container">
+                    <a href="./index.html" class="logo">
+                    <span>Web</span>Studio
+                    </a>
+                        <ul class="site-nav">
+                            <li>
+                                <a href="index.html" class="link">Studio</a>
+                            </li>
+                            <li>
+                                <a href="./portfolio.html" class="link">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="/" class="link">Contacts</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>       
+        <div class="container-contacts">
                 <ul class="contacts">
                     <li>
                         <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
@@ -35,65 +42,72 @@
                         <a href="tel:+11(000)111-11-11" class="phone">+11 (000) 111-11-11</a>
                     </li>
                 </ul> 
-        </nav>
+        </div>
     </header>
 <!--      Hero -->
     <main> 
         <section class="hero-title">
-            <h1>Effective Solutions for Your Business</h1>
-            <button class="button-hero" type="button">Order Service</button>           
+            <div class="container-hero">
+                <h1 class="first-title">Effective Solutions for Your Business</h1>
+                <button class="button-hero" type="button">Order Service</button>
+            </div>
         </section>
+
      <!-- первая секция после героя -->
-        <section class="section-content">
-            <ul>
-                <li>
-                    <h3 class="section-title">Strategy</h3>
-                    <p>Our goal is to identify the business
-                          problem to walk away with the perfect and creative solution.
-                    </p>                  
-                </li>
+        <section class="section">
+            <div class="container-content">
+                <ul class="content">
+                    <li>
+                        <h3 class="section-title">Strategy</h3>
+                        <p>Our goal is to identify the business
+                            problem to walk away with the perfect and creative solution.
+                        </p>                  
+                    </li>
 
-                <li>
-                    <h3 class="section-title">Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </li>
+                    <li>
+                        <h3 class="section-title">Punctuality</h3>
+                        <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    </li>
 
-                <li>
-                    <h3 class="section-title">Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </li>
+                    <li>
+                        <h3 class="section-title">Diligence</h3>
+                        <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                    </li>
 
-                <li>
-                    <h3 class="section-title">Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </li>
-            </ul>
+                    <li>
+                        <h3 class="section-title">Technologies</h3>
+                        <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
          <!-- what are we doing -->
          <section class="section">
-            <ul>
-                <h2 class="team-work">What are we doing</h2>            
-                    <li>
-                        <img src="./img/img.jpg" alt="statistics on the monitor">
-                    </li>
+            <div class="container-works">
+                <ul class="works">
+                    <h2 class="team-work">What are we doing</h2>            
+                        <li>
+                            <img src="./img/img.jpg" alt="statistics on the monitor">
+                        </li>
 
-                    <li>
+                        <li>
 
-                        <img src="./img/img-1.jpg" alt="wahtsaap user interface on smartphone">
-                    </li>
+                            <img src="./img/img-1.jpg" alt="wahtsaap user interface on smartphone">
+                        </li>
 
-                    <li>
-                        <img src="./img/img-2.jpg" alt="smartphone in hand">
-                    </li>
-                
-            </ul>
+                        <li>
+                            <img src="./img/img-2.jpg" alt="smartphone in hand">
+                        </li>
+                </ul>
+            </div>
          </section>
          
          <!-- Our team -->
-         <section class="section-command"> 
+         <section class="section">
+            <div class="container-command"> 
                 <h2 class="section-team">Our Team</h2>
-                <ul>
+                <ul class="team-foto">
                     <li>
                         <img src="./img/markguerrero.jpg" alt="mark guerro">
                         <h3 class="section-names">Mark Guerrero</h3>
@@ -115,9 +129,8 @@
                         <h3 class="section-names">Daniel Wilson</h3>
                         <p>UI Designer</p>
                     </li>
-
                 </ul>
-           
+             </div>
          </section>
 
     </main>
