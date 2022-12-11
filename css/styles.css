@@ -300,7 +300,15 @@ p {
     padding-left: 0;
 }
 
-.container-foto {
+.container-app {
     margin-top: 72px;
 }
 
+.container-marketing {
+    margin-top: 48px;
+}
+
+.container-design {
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
