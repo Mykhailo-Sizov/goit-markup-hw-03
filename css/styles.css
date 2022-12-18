@@ -376,18 +376,20 @@ border-radius: 0px 0px 4px 4px;
 
 /* секция фото */
 .portfolio-foto {
-    display: flex;
-    justify-content: center;
-    margin-top: 74px;
-    margin-bottom: 120px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    padding-top: 72px;
+    /* width: 1152px; */
+   
+    
    
 }
 
 .foto-list {
     display: flex;
     flex-wrap: wrap;
-    width: 1128px;
-    background: #FFFFFF;
+    width: 1152px;
+    /* background: #FFFFFF; */
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   
@@ -395,8 +397,9 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .foto-img-list {
-    /* margin-right: 24px; */
-    /* margin-bottom: 48px; */
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
 
 }
 
@@ -405,13 +408,15 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-.foto-img-list:nth-child(n+6) {
+.foto-img-list:nth-child(n+7) {
     margin-bottom: 0;
 }
 
 .app-marketing-design {
-    padding: 32px 54px 32px 16px;
-    background: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    /* background: #FFFFFF; */
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -420,7 +425,6 @@ border-radius: 0px 0px 4px 4px;
     color: var(--title-text-color);
     font-size: 20px;
     line-height: 1.2em;
-    margin-top: 0;
     margin-bottom: 8px;
 }
 
