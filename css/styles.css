@@ -301,8 +301,8 @@ a {
 
 .portfolio-card {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .portfolio-name {
