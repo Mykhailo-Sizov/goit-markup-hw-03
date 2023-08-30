@@ -57,8 +57,8 @@ a {
 
 .page-header-div {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .site-nav {
@@ -94,12 +94,16 @@ a {
     text-transform: uppercase;
 }
 
+
 .menu-nav-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height:1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-nav-link:hover,
@@ -118,6 +122,9 @@ a {
 }
 
 .contacts-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: #434455;
     line-height: 1.5; 
     letter-spacing: 0.02em;
@@ -338,9 +345,12 @@ a {
 
 .footer {
     background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-link-footer {
+    margin-bottom: 18px;
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -356,6 +366,7 @@ a {
 }
 
 .footer-p {
+    width: 264px;
     color: #F4F4FD;
     font-weight: 400;
     line-height: 1.5;
