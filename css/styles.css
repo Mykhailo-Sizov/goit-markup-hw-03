@@ -34,9 +34,19 @@ a {
     text-decoration: none;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
        /* HEADER */
 
-   
+.page-header {
+    border-bottom: 1px solid  #E7E9FC;
+    background-color: #FFF;
+}
+          
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -123,17 +133,14 @@ a {
 
 .hero-block {
     background-color: #2E2F42;
+    margin: 0 auto;
+    padding: 188px 0;
+    text-align: center;
 }   
-
-/* .container-hero {
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 .hero-title {
     margin: 0 auto;
     max-width: 496px;
-    padding-top: 188px;
     margin-bottom: 48px;
     text-align: center;
     color: #FFF;
@@ -157,6 +164,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color:  #4D5AE5;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
    
 }
 
@@ -181,6 +191,20 @@ a {
     overflow: hidden;
 }
 
+.privilege {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.privilege-list {
+    width: 264px;
+}
+
+.privilege-list:not(:last-child) {
+    margin-right: 24px;
+}
+
 .title-privilege {
     color: #2E2F42;
     font-size: 20px;
@@ -202,6 +226,7 @@ a {
 }
 
 .our-team {
+    padding-bottom: 72px;
     text-align: center;
     color: #2E2F42;    
     font-size: 36px;
@@ -211,11 +236,32 @@ a {
     text-transform: capitalize;      
 }
 
+.our-team-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team-li:not(:last-child){
+    margin-right: 24px;
+}
+
 .our-team-li {
+    width: 264px;
     background-color: #FFF;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.foto-names {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .title-team {
+    margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -238,6 +284,25 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.portfolio-li {
+    width: 360px;
+    
+}
+
+.portfolio-card {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .portfolio-name {
