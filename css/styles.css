@@ -291,21 +291,37 @@ a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
+    justify-content: center;
+    gap: 48px 24px;
 }
+
 
 .portfolio-li {
     width: 360px;
-    
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-li:hover,
+.portfolio-li:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    
 }
 
+/* .portfolio-card:hover, 
+.portfolio-card:focus{
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+} */
+
+
+
 .portfolio-name {
+    margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
