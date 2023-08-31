@@ -326,8 +326,7 @@ a {
 
 .portfolio-card {
     text-align: center;
-    padding-top: 32px 16px;
-    /* padding-bottom: 32px; */
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
 }
 
