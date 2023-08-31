@@ -66,18 +66,8 @@ a {
 
 .navigation {
     display: flex;
-    /* column-gap: 40px; */
+    gap: 40px;
 }
-
-.link-header {
-    margin-right: 40px;
-}
-
-.link-header-fin {
-    margin-right: 0;
-}
-
-
 
 .logo-link {
     color: #2E2F42;
@@ -110,6 +100,7 @@ a {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 }
 
 .menu-nav-link:hover,
@@ -124,6 +115,7 @@ a {
 
 .adr-ss-ul {
     display: flex;
+    gap: 40px;
 }
 
 .contacts {
@@ -328,6 +320,7 @@ a {
     text-align: center;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-card:hover, 
