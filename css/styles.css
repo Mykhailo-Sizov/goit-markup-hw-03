@@ -170,7 +170,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
@@ -227,6 +227,7 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .privilege-p {
