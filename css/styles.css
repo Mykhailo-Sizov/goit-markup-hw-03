@@ -203,16 +203,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-    
+
 .privilege-list {
-    width: 264px;
+    width: calc((100% - 3*24px)/4);
 }
 
 .privilege-list:not(:last-child) {
     margin-right: 24px;
 }
-
+    
 .title-privilege {
     color: #2E2F42;
     font-size: 20px;
@@ -307,28 +308,19 @@ a {
 
 
 .portfolio-li {
-    width: 360px;
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 4*24p)/4);
 }
 
-/* .portfolio-li:hover,
-.portfolio-li:focus {
+.portfolio-li:hover,
+.portfolio-li:focus{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-} */
+}
 
 .portfolio-card {
-    text-align: center;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
-.portfolio-card:hover, 
-.portfolio-card:focus{
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-
 
 .portfolio-name {
     margin-bottom: 8px;
